@@ -53,7 +53,7 @@ void INIT(char puerto){
         break;
     }
 }
-void KEYBOARD(char puerto){
+char KEYBOARD(char puerto){
     char P = toupper(puerto);
     switch (P){
         case'A':
@@ -117,3 +117,4 @@ void KEYBOARD(char puerto){
         }
     break;
     }
+}
